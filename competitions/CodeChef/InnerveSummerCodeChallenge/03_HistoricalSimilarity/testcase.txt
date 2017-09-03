@@ -1,0 +1,6 @@
+5
+aa bb
+aab bba
+aba ccc
+abc pqr
+abcdeaabbc pqrstppqqr
