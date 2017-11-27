@@ -24,3 +24,17 @@ print Counter(details)
 # 3) With keyword arguments mapping string names to counts
 print Counter(Z=4, RISHI=5, HEM_3=6, MALINI2=9)
 
+
+# Using update() method
+c1 = Counter()
+c2 = Counter(evens)
+c1.update(evens)
+print c1, c2
+
+c3 = Counter()
+c3.update(evens)
+c4 = Counter()
+c4.update([1, 5, 7, 1, 4, 5, 7, 5])
+print c3, c4
+c4.update([1, 5, 7])
+print c4
